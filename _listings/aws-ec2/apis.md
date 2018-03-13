@@ -33,7 +33,7 @@ apis:
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-ec2/action-describeavailabilityzones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-ec2/action-describescheduledinstanceavailability-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
