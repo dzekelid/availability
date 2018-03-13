@@ -25,7 +25,7 @@ apis:
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-current-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-get.md
 x-common:
 - type: x-faq
   url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
