@@ -48,7 +48,7 @@ apis:
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/action-listhapgs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
