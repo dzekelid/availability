@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-checknotificationhubavailability-post.md
-- name: Azure Notification Hubs API Namespaces Check Availability
-  description: Checks the availability of the given service namespace across all Azure
-    subscriptions. This is useful because the domain name is created based on the
-    service namespace name.
+- name: Azure Notification Hubs API Notification Hubs Check Availability
+  description: Checks the availability of the given notificationHub in a namespace.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-notification-hubs.png
   humanURL: https://docs.microsoft.com/en-us/azure/notification-hubs/
   baseURL: http:://management.azure.com//
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-providers-microsoft-notificationhubs-checknamespaceavailability-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-checknotificationhubavailability-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/rest/api/notificationhubs
