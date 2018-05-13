@@ -24,7 +24,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-storage/subscriptions-subscriptionid-providers-microsoft-storage-checknameavailability-post.md
+- name: Azure Storage API Storage Accounts Check Name Availability
+  description: Checks that the storage account name is valid and is not already in
+    use.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
+  humanURL: https://azure.microsoft.com/en-us/services/storage/
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-storage/subscriptions-subscriptionid-providers-microsoft-storage-checknameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/storage/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/storage/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/storage/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/storage/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
 - type: x-pricing
