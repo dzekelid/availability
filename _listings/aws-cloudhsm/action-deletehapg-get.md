@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Delete HAPG
   version: 1.0.0
+  description: Deletes a high-availability partition group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteHapg&k=1:
+  /?Action=DeleteHapg:
     get:
       summary: ' Delete HAPG '
       description: Deletes a high-availability partition group
