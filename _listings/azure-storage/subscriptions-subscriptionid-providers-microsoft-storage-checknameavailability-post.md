@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts Check Name Availability
   version: 1.0.0
+  description: Checks that the storage account name is valid and is not already in
+    use.
 host: management.azure.com
 basePath: /
 schemes:
