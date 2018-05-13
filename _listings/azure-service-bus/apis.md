@@ -28,7 +28,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-checknameavailability-post.md
+- name: Azure Service Bus API Namespaces Check Name Availability
+  description: Check the give namespace name availability.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
+  humanURL: https://azure.microsoft.com/en-us/services/service-bus/
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-service-bus/subscriptions-subscriptionid-providers-microsoft-servicebus-checknameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-bus/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/service-bus/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/service-bus/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/service-bus/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/
 - type: x-pricing
