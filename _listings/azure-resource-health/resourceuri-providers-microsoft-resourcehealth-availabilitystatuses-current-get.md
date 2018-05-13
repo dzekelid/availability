@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft.ResourceHealth
-  description: The Resource Health Client.
+  title: Azure Resource Health API Availability Statuses Get By Resource
+  description: Gets current availability status for a single resource
   version: 1.0.0
 host: management.azure.com
 basePath: /
