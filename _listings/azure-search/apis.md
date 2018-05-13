@@ -26,7 +26,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
+- name: Azure Search API Services Check Name Availability
+  description: Checks whether or not the given Search service name is available for
+    use. Search service names must be globally unique since they are part of the service
+    URI (https://<name>.search.windows.net).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
+  humanURL: https://azure.microsoft.com/en-us/services/search/
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-search/subscriptions-subscriptionid-providers-microsoft-search-checknameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/search/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/search/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/search/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/search/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
 - type: x-pricing
