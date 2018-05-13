@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Scheduled Instance Availability
   version: 1.0.0
+  description: Finds available schedules that meet the specified criteria.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeScheduledInstanceAvailability&k=1:
+  /?Action=DescribeScheduledInstanceAvailability:
     get:
       summary: Describe Scheduled Instance Availability
       description: Finds available schedules that meet the specified criteria
