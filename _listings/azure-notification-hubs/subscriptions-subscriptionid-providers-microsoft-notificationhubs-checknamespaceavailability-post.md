@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Namespaces Check Availability
+  description: Checks the availability of the given service namespace across all Azure
+    subscriptions. This is useful because the domain name is created based on the
+    service namespace name.
   version: 1.0.0
 host: management.azure.com
 basePath: /
