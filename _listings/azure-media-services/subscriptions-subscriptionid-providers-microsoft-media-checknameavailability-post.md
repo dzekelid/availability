@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: MediaServicesManagementClient
-  description: Media Services resource management APIs.
+  title: Azure Media Services API Media Service Check Name Availability
+  description: Checks whether the Media Service resource name is available. The name
+    must be globally unique.
   version: 1.0.0
 host: management.azure.com
 basePath: /
