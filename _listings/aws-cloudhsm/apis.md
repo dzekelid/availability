@@ -49,15 +49,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
-- name: AWS CloudHSM API List HAPG
-  description: Lists the high-availability partition groups for the account.
+- name: AWS CloudHSM API Modify HAPG
+  description: Modifies an existing high-availability partition group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
   baseURL: http:://{host}//
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-cloudhsm/action-listhapgs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
