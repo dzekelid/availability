@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: iotHubClient
-  description: Use this API to manage the IoT hubs in your subscription.
+  title: Azure IoT Hub API Iot Hub Resource Check Name Availability
+  description: Check if an IoT hub name is available.
   version: 1.0.0
 host: management.azure.com
 basePath: /
