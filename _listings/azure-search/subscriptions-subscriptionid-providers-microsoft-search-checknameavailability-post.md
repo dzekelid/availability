@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Services Check Name Availability
+  description: Checks whether or not the given Search service name is available for
+    use. Search service names must be globally unique since they are part of the service
+    URI (https://<name>.search.windows.net).
   version: 1.0.0
 host: management.azure.com
 basePath: /
