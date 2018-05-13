@@ -26,17 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-get.md
-- name: Azure Resource Health API Availability Statuses Get By Resource
-  description: Gets current availability status for a single resource
+- name: Azure Resource Health API Availability Statuses List
+  description: Lists the historical availability statuses for a single resource. Use
+    the nextLink property in the response to get the next page of availability status
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-health.png
   humanURL: https://docs.microsoft.com/en-us/azure/resource-health/
   baseURL: http:://management.azure.com//
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-current-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-current-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-resource-health/resourceuri-providers-microsoft-resourcehealth-availabilitystatuses-get-postman.md
 x-common:
 - type: x-faq
   url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
