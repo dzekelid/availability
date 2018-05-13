@@ -25,7 +25,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-cdn/providers-microsoft-cdn-checknameavailability-post.md
+- name: Azure CDN API Check Name Availability
+  description: Check the availability of a resource name. This is needed for resources
+    where name is globally unique, such as a CDN endpoint.
+  image: ""
+  humanURL: https://azure.microsoft.com/en-us/services/cdn/
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-cdn/providers-microsoft-cdn-checknameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/cdn/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/cdn/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/cdn/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
 - type: x-pricing
