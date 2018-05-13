@@ -28,7 +28,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-event-hubs/subscriptions-subscriptionid-providers-microsoft-eventhub-checknameavailability-post.md
+- name: Azure Event Hubs API Namespaces Check Name Availability
+  description: Check the give Namespace name availability.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
+  humanURL: https://azure.microsoft.com/en-us/services/event-hubs/
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-event-hubs/subscriptions-subscriptionid-providers-microsoft-eventhub-checknameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/event-hubs/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/event-hubs/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/event-hubs/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/event-hubs/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
 - type: x-pricing
