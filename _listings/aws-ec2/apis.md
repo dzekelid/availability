@@ -34,16 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-ec2/action-describescheduledinstanceavailability-get.md
-- name: AWS EC2 API Describe Availability Zones
-  description: Describes one or more of the Availability Zones that are available
-    to you.
+- name: AWS EC2 API Describe Scheduled Instance Availability
+  description: Finds available schedules that meet the specified criteria.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/action-describeavailabilityzones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/action-describescheduledinstanceavailability-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
