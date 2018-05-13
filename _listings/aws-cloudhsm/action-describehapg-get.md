@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Describe HAPG
   version: 1.0.0
+  description: Retrieves information about a high-availability partition group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHapg&k=1:
+  /?Action=DescribeHapg:
     get:
       summary: ' Describe HAPG '
       description: Retrieves information about a high-availability partition group
