@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: CdnManagementClient
-  description: Use these APIs to manage Azure CDN resources through the Azure Resource
-    Manager. You must make sure that requests made to these resources are secure.
+  title: Azure CDN API Check Name Availability
+  description: Check the availability of a resource name. This is needed for resources
+    where name is globally unique, such as a CDN endpoint.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -31,6 +31,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - name availability
 definitions:
   Profile:
