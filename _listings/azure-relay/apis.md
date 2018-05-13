@@ -30,7 +30,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/azure-relay/subscriptions-subscriptionid-providers-microsoft-relay-checknameavailability-post.md
+- name: Azure Relay API Namespaces Check Name Availability
+  description: Check the give namespace name availability.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
+  humanURL: ""
+  baseURL: http:://management.azure.com//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/azure-relay/subscriptions-subscriptionid-providers-microsoft-relay-checknameavailability-post.md
 x-common:
+- type: x-blog
+  url: https://blogs.msdn.microsoft.com/servicebus/
+- type: x-blog-rss
+  url: https://blogs.msdn.microsoft.com/servicebus/feed/
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-bus-relay/
+- type: x-pricing
+  url: https://azure.microsoft.com/pricing/details/service-bus/
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/azure-servicebusrelay
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
 - type: x-blog-rss
