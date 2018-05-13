@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Create Hapg
   version: 1.0.0
+  description: Creates a high-availability partition group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateHapg&k=1:
+  /?Action=CreateHapg:
     get:
       summary: ' Create Hapg '
       description: Creates a high-availability partition group
