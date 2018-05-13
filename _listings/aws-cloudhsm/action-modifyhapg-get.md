@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudHSM API
+  title: AWS CloudHSM API Modify HAPG
   version: 1.0.0
+  description: Modifies an existing high-availability partition group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyHapg&k=1:
+  /?Action=ModifyHapg:
     get:
       summary: ' Modify HAPG '
       description: Modifies an existing high-availability partition group
