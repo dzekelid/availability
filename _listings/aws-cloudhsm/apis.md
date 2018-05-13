@@ -49,7 +49,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
+- name: AWS CloudHSM API Create Hapg
+  description: Creates a high-availability partition group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: http:://{host}//
+  tags: Availability
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-cloudhsm/action-createhapg-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
+- type: x-faq
+  url: https://aws.amazon.com/cloudhsm/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=156
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudhsm/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudhsm/pricing/
+- type: x-release-notes
+  url: http://aws.amazon.com/releasenotes/AWS-CloudHSM/
+- type: x-website
+  url: https://aws.amazon.com/cloudhsm/
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
 - type: x-faq
