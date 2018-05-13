@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Registry API
+  title: AWS EC2 Container Registry API Batch Check Layer Availability
   version: 1.0.0
+  description: Check the availability of multiple image layers in a specified registry
+    and repository.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchCheckLayerAvailability&k=1:
+  /?Action=BatchCheckLayerAvailability:
     get:
       summary: ' Batch Check Layer Availability '
       description: Check the availability of multiple image layers in a specified
