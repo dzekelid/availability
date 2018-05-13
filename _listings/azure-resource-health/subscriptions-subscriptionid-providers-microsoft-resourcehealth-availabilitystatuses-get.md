@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft.ResourceHealth
-  description: The Resource Health Client.
+  title: Azure Resource Health API Availability Statuses List By Subscription Id
+  description: Lists the current availability status for all the resources in the
+    subscription. Use the nextLink property in the response to get the next page of
+    availability statuses.
   version: 1.0.0
 host: management.azure.com
 basePath: /
