@@ -1,20 +1,21 @@
 ---
 name: AWS CloudHSM
+x-slug: aws-cloudhsm
 description: The AWS CloudHSM service helps you meet corporate, contractual and regulatory
   compliance requirements for data security by using dedicated Hardware Security Module
   (HSM) appliances within the AWS cloud. With CloudHSM, you control the encryption
-  keys and cryptographic operations performed by the HSM.nAWS and AWS Marketplace
-  partners offer a variety of solutions for protecting sensitive data within the AWS
-  platform, but for applications and data subject to rigorous contractual or regulatory
-  requirements for managing cryptographic keys, additional protection is sometimes
-  necessary. Until now, your only option was to store the sensitive data (or the encryption
-  keys protecting the sensitive data) in your on-premises datacenters. Unfortunately,
-  this either prevented you from migrating these applications to the cloud or significantly
-  slowed their performance. The AWS CloudHSM service allows you to protect your encryption
+  keys and cryptographic operations performed by the HSM.AWS and AWS Marketplace partners
+  offer a variety of solutions for protecting sensitive data within the AWS platform,
+  but for applications and data subject to rigorous contractual or regulatory requirements
+  for managing cryptographic keys, additional protection is sometimes necessary. Until
+  now, your only option was to store the sensitive data (or the encryption keys protecting
+  the sensitive data) in your on-premises datacenters. Unfortunately, this either
+  prevented you from migrating these applications to the cloud or significantly slowed
+  their performance. The AWS CloudHSM service allows you to protect your encryption
   keys within HSMs designed and validated to government standards for secure key management.
   You can securely generate, store, and manage the cryptographic keys used for data
   encryption such that they are accessible only by you. AWS CloudHSM helps you comply
-  with strict key management requirements without sacrificing application performance.nThe
+  with strict key management requirements without sacrificing application performance.The
   AWS CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances
   are provisioned inside your VPC with an IP address that you specify, providing simple
   and private network connectivity to your Amazon Elastic Compute Cloud (EC2) instances.
@@ -25,54 +26,18 @@ description: The AWS CloudHSM service helps you meet corporate, contractual and 
   secure and durable key storage to your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Regulations
-- Management
-- Encryption
-- Contracts
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/apis.yaml
+x-alexaRank: "0"
+tags: Availability
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS CloudHSM API
-  description: The AWS CloudHSM service helps you meet corporate, contractual and
-    regulatory compliance requirements for data security by using dedicated Hardware
-    Security Module (HSM) appliances within the AWS cloud
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
-  humanURL: ""
-  baseURL: :///
-  tags: Availability
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
-- name: AWS CloudHSM API Modify HAPG
-  description: Modifies an existing high-availability partition group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
-  humanURL: https://aws.amazon.com/cloudhsm/
-  baseURL: http:://{host}//
-  tags: Availability
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-cloudhsm/action-modifyhapg-get.md
+apis: []
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
-- type: x-faq
-  url: https://aws.amazon.com/cloudhsm/faqs/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=156
-- type: x-getting-started
-  url: https://aws.amazon.com/cloudhsm/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/cloudhsm/pricing/
-- type: x-release-notes
-  url: http://aws.amazon.com/releasenotes/AWS-CloudHSM/
-- type: x-website
-  url: https://aws.amazon.com/cloudhsm/
+- type: x-api-gallery
+  url: http://aws.cloudfront.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudhsm.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
 - type: x-faq

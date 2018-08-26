@@ -1,8 +1,9 @@
 ---
 name: AWS EC2 Container Registry Service
-description: Amazon EC2 Container Registry (ECR) is a fully-managednbsp;Dockernbsp;container
+x-slug: aws-ec2-container-registry-service
+description: Amazon EC2 Container Registry (ECR) is a fully-managedDockercontainer
   registry that makes it easy for developers to store, manage, and deploy Docker container
-  images. Amazon ECR is integrated withnbsp;Amazon EC2 Container Service (ECS), simplifying
+  images. Amazon ECR is integrated withAmazon EC2 Container Service (ECS), simplifying
   your development to production workflow. Amazon ECR eliminates the need to operate
   your own container repositories or worry about scaling the underlying infrastructure.
   Amazon ECR hosts your images in a highly available and scalable architecture, allowing
@@ -12,49 +13,18 @@ description: Amazon EC2 Container Registry (ECR) is a fully-managednbsp;Dockernb
   amount of data you store in your repositories and data transferred to the Internet.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Discovery
-- Containers
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-ec2-container-registry-service/apis.yaml
+x-alexaRank: "0"
+tags: Availability
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2-container-registry-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS EC2 Container Registry API
-  description: Amazon EC2 Container Registry (ECR) is a fully-managednbsp;Dockernbsp;container
-    registry that makes it easy for developers to store, manage, and deploy Docker
-    container images
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
-  humanURL: ""
-  baseURL: :///
-  tags: Availability
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/availability/master/_listings/aws-ec2-container-registry-service/action-batchchecklayeravailability-get.md
-- name: AWS EC2 Container Registry API Batch Check Layer Availability
-  description: Check the availability of multiple image layers in a specified registry
-    and repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
-  humanURL: https://aws.amazon.com/ecr/
-  baseURL: http:://{host}//
-  tags: Availability
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2-container-registry-service/action-batchchecklayeravailability-get.md
+apis: []
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/AmazonECR/latest/APIReference/Welcome.html
-- type: x-faq
-  url: https://aws.amazon.com/ecr/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/ecr/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/ecr/pricing/
-- type: x-website
-  url: https://aws.amazon.com/ecr/
+- type: x-api-gallery
+  url: http://aws.ec2.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.ec2.container.registry.service.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECR/latest/APIReference/Welcome.html
 - type: x-faq
