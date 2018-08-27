@@ -7,11 +7,50 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
+  description: Searches for the specific keyword to purchase on the CallFire platform.
+    Returns 'true' if keyword is available.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
+  description: Searches for the specific keyword to purchase on the CallFire platform.
+    Returns 'true' if keyword is available.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
+  description: Searches for the specific keyword to purchase on the CallFire platform.
+    Returns 'true' if keyword is available.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK

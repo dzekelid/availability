@@ -12,11 +12,59 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
 apis:
+- name: RingCentral Connect Platform API Explorer - Get Available Fax Cover Pages
+  x-api-slug: restapiv1-0dictionaryfaxcoverpage-get
+  description: "Returns fax cover pages available for the current extension.\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [page] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Available Fax Cover Pages
+  x-api-slug: restapiv1-0dictionaryfaxcoverpage-get
+  description: "Returns fax cover pages available for the current extension.\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [page] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Available Fax Cover Pages
+  x-api-slug: restapiv1-0dictionaryfaxcoverpage-get
+  description: "Returns fax cover pages available for the current extension.\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [page] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/ringcentral/restapiv1-0dictionaryfaxcoverpage-get-openapi.md
 - name: RingCentral Connect Platform API Explorer - Get Available Fax Cover Pages
   x-api-slug: restapiv1-0dictionaryfaxcoverpage-get
   description: "Returns fax cover pages available for the current extension.\nUsage

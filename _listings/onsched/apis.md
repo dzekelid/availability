@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/onsched/apis.md
 specificationVersion: "0.14"
 apis:
@@ -73,6 +73,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/onsched/consumerv1availabilityserviceidstartdateenddateunavailable-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/onsched/consumerv1availabilityserviceidstartdateenddateunavailable-get-openapi.md
+- name: OnSched API - Returns a list of available times.
+  x-api-slug: consumerv1availabilityappointmentidreschedule-get
+  description: "This end point is used to find availability for the purpose of rescheduling
+    an appointment.\r\nAvailability defaults to the serviceId, resourceId and timezone
+    from the original appointment.\r\nAfter choosing from the availability, you can
+    call the appointment reschedule endpoint."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png
+  humanURL: http://www.onsched.com
+  baseURL: https://api.onsched.com//
+  tags: API Provider, Bookings, Profiles, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/onsched/consumerv1availabilityappointmentidreschedule-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://onenote.api.gallery.streamdata.io

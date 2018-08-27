@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,166 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilitiesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilitiesid-get-openapi.md
+- name: plentymarkets REST-API - Update an item availability
+  x-api-slug: restavailabilitiesid-put
+  description: Updates an item availability.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilitiesid-put-openapi.md
+- name: plentymarkets REST-API - Delete an availability
+  x-api-slug: restitemsidimagesimageidavailabilities-delete
+  description: Delete an availability for a specified value.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restitemsidimagesimageidavailabilities-delete-openapi.md
+- name: plentymarkets REST-API - Create an availability
+  x-api-slug: restitemsidimagesimageidavailabilities-post
+  description: Create an availability. The image ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restitemsidimagesimageidavailabilities-post-openapi.md
+- name: plentymarkets REST-API - Create an availability
+  x-api-slug: restpropertiesavailabilities-post
+  description: Creates an availability.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilities-post-openapi.md
+- name: plentymarkets REST-API - Delete an availability
+  x-api-slug: restpropertiesavailabilitiesavailabilityid-delete
+  description: Deletes an availability. The ID ot the availability must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilitiesavailabilityid-delete-openapi.md
+- name: plentymarkets REST-API - Get an availability
+  x-api-slug: restpropertiesavailabilitiesavailabilityid-get
+  description: Gets an availability. The ID of the availability must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilitiesavailabilityid-get-openapi.md
+- name: plentymarkets REST-API - Update an availability
+  x-api-slug: restpropertiesavailabilitiesavailabilityid-put
+  description: Updates an availability. The ID of the availabilty must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilitiesavailabilityid-put-openapi.md
+- name: plentymarkets REST-API - List item availabilities
+  x-api-slug: restavailabilities-get
+  description: Lists all item availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restitemsidimagesimageidavailabilities-get
+  description: List all availabilities of an image. The image ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restitemsidimagesimageidavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restpropertiesavailabilities-get
+  description: Lists availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List item availabilities
+  x-api-slug: restavailabilities-get
+  description: Lists all item availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restitemsidimagesimageidavailabilities-get
+  description: List all availabilities of an image. The image ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restitemsidimagesimageidavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restpropertiesavailabilities-get
+  description: Lists availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restpropertiesavailabilities-get
+  description: Lists availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restpropertiesavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List availabilities
+  x-api-slug: restitemsidimagesimageidavailabilities-get
+  description: List all availabilities of an image. The image ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restitemsidimagesimageidavailabilities-get-openapi.md
+- name: plentymarkets REST-API - List item availabilities
+  x-api-slug: restavailabilities-get
+  description: Lists all item availabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/plentymarkets/restavailabilities-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

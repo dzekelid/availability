@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 1
@@ -18,4 +17,22 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  //{hostname}/auth/tokens:
+    get:
+      summary: Available Tokens
+      description: In order for a given client to retreive a list of tokens that users
+        have created for the client to communicate with, they can send a request (with
+        the `x-client-auth` header set appropriately) to this endpoint.
+      operationId: AuthTokensByHostnameGet
+      x-api-path-slug: hostnameauthtokens-get
+      parameters:
+      - in: path
+        name: hostname
+      - in: header
+        name: x-client-auth
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""

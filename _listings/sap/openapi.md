@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: SAP
 x-complete: 1
@@ -18,6 +17,55 @@ produces:
 consumes:
 - application/json
 paths:
+  /collaborationTemplates:
+    get:
+      summary: Retrieves available collaboration room templates
+      description: Retrieves available collaboration room templates.
+      operationId: retrieves-available-collaboration-room-templates
+      x-api-path-slug: collaborationtemplates-get
+      parameters:
+      - in: query
+        name: typeId
+        description: The ID of a collaboration room template
+      - in: query
+        name: typeName
+        description: The name of a collaboration room template
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Retrieves
+      - Available
+      - Collaboration
+      - Room
+      - Templates
+  /organizations/visible:
+    get:
+      summary: Retrieves organizations available for collaboration
+      description: "Retrieves organizations in a specific business role that are available
+        for collaboration.  \nThese organizations may have been approved for or blocked
+        from collaboration, or they're still pending for approval.\nThe login user
+        must be from a customer."
+      operationId: retrieves-organizations-in-a-specific-business-role-that-are-available-for-collaboration--these-orga
+      x-api-path-slug: organizationsvisible-get
+      parameters:
+      - in: query
+        name: activeServices
+        description: The types of service that a supplier provides
+      - in: query
+        name: approved
+        description: Specify approved=true to restrict the search to organizations
+          that are approved for collaboration
+      - in: query
+        name: roleCode
+        description: The code for the business role of the organizations
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Retrieves
+      - Organizations
+      - Availablecollaboration
   /texttypes:
     get:
       summary: Returns a list of the text types available in SAP Translation Hub.
@@ -52,4 +100,3 @@ paths:
       - SAP
       - Translation
       - Hub
----

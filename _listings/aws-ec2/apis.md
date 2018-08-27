@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -35,6 +35,29 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/actioncreatevolume-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/actioncreatevolume-get-openapi.md
+- name: AWS EC2 API - Describe Availability Zones
+  x-api-slug: actiondescribeavailabilityzones-get
+  description: Describes one or more of the Availability Zones that are available
+    to you.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/actiondescribeavailabilityzones-get-openapi.md
+- name: AWS EC2 API - Describe Scheduled Instance Availability
+  x-api-slug: actiondescribescheduledinstanceavailability-get
+  description: Finds available schedules that meet the specified criteria.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2/actiondescribescheduledinstanceavailability-get-openapi.md
 - name: AWS EC2 API - Modify Reserved Instances
   x-api-slug: actionmodifyreservedinstances-get
   description: Modifies the Availability Zone, instance count, instance type, or network

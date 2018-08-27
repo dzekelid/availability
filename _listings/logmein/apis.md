@@ -8,11 +8,117 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GoToAssist Remote Support - Available Recordings
+  x-api-slug: archiverecordings-get
+  description: "This method retrieves a list of all available recordings on the account.
+    Only recordings which are available for transcoding or downloading will be returned.
+    The recording IDs are always returned in the order in which the recordings were
+    started (i.e., startTime order). The request must contain one or more of the following:
+    accountKey, userKey or companyId. The list of recordings can be filtered by the
+    request parameters listed below.\n\nNote: Session recording must be enabled on
+    the account in order to use this API method. To enable session recording, log
+    in at https://app.gotoassist.com (link is external) and go to Configure > GoToAssist
+    Settings > Enable Session Recording check box.\n\n  Request Parameters                  \n
+    \ Each request must contain one or more of the following: accountKey, userKey
+    or companyId.                  \n                    \n    field      data type
+    \     description    \n    accountKey      number      The account key associated
+    with the recording ( available in the Get Screen Sharing Session Info (link is
+    external) method response )    \n    userKey      number      The user key of
+    the technician who started the recorded session (available in the Authentication
+    (link is external) API method response)    \n    companyId      number      The
+    companyId associated with the recording for unattended support sessions only (
+    available in the Get Companies (link is external) API method response )    \n
+    \   sessionType *      number      The type of session: attended (0) or unattended
+    (1)    \n    fromTime *      ISO 8601 format **      The oldest sessions that
+    should be retrieved (startTime must be greater than or equal to fromTime)    \n
+    \   toTime *      ISO 8601 format **      The most recent sessions that should
+    be retrieved (startTime must be greater than or equal to fromTime)    \n    timePeriod
+    *      number      The recordings within a Time Period, starting from currentDate
+    (ex: \u201DtimePeriod=30\u201D would retrieve the last 30 days\u2019 recordings)
+    \   \n    archived *      number      The option to include only archived recordings,
+    as follows: include only archived recordings (1) or include only non-archived
+    recordings (0 or omit)    \n                    \n* Optional                    \n**
+    ISO 8601 format reference                    \n                    \n  Response
+    Parameters                  \n  No more than 500 recordings at a time will be
+    returned for readyForTranscode or readyForDownload.                  \n                    \n
+    \   field      data type      description    \n    readyForTranscode      array
+    \     A list of recordingIds for recordings that are ready to be transcoded    \n
+    \   readyForDownload      array      A list of recordingIds for recordings that
+    are ready to be downloaded    \n                    \n                    \nStatus
+    Codes                    \n                    \n    Staus Code      description
+    \         \n    200 OK      Recordings retrieved successfully          \n    400
+    Bad Request      Request may be malformed or property may be missing or invalid
+    \         \n    403 Forbidden      Invalid authorization header or invalid userKey,
+    accountKey or companyId          \n    500 Internal Server Error      Unexpected
+    server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/logmein/archiverecordings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/logmein/archiverecordings-get-openapi.md
+- name: GoToAssist Remote Support - Available Recordings
+  x-api-slug: archiverecordings-get
+  description: "This method retrieves a list of all available recordings on the account.
+    Only recordings which are available for transcoding or downloading will be returned.
+    The recording IDs are always returned in the order in which the recordings were
+    started (i.e., startTime order). The request must contain one or more of the following:
+    accountKey, userKey or companyId. The list of recordings can be filtered by the
+    request parameters listed below.\n\nNote: Session recording must be enabled on
+    the account in order to use this API method. To enable session recording, log
+    in at https://app.gotoassist.com (link is external) and go to Configure > GoToAssist
+    Settings > Enable Session Recording check box.\n\n  Request Parameters                  \n
+    \ Each request must contain one or more of the following: accountKey, userKey
+    or companyId.                  \n                    \n    field      data type
+    \     description    \n    accountKey      number      The account key associated
+    with the recording ( available in the Get Screen Sharing Session Info (link is
+    external) method response )    \n    userKey      number      The user key of
+    the technician who started the recorded session (available in the Authentication
+    (link is external) API method response)    \n    companyId      number      The
+    companyId associated with the recording for unattended support sessions only (
+    available in the Get Companies (link is external) API method response )    \n
+    \   sessionType *      number      The type of session: attended (0) or unattended
+    (1)    \n    fromTime *      ISO 8601 format **      The oldest sessions that
+    should be retrieved (startTime must be greater than or equal to fromTime)    \n
+    \   toTime *      ISO 8601 format **      The most recent sessions that should
+    be retrieved (startTime must be greater than or equal to fromTime)    \n    timePeriod
+    *      number      The recordings within a Time Period, starting from currentDate
+    (ex: \u201DtimePeriod=30\u201D would retrieve the last 30 days\u2019 recordings)
+    \   \n    archived *      number      The option to include only archived recordings,
+    as follows: include only archived recordings (1) or include only non-archived
+    recordings (0 or omit)    \n                    \n* Optional                    \n**
+    ISO 8601 format reference                    \n                    \n  Response
+    Parameters                  \n  No more than 500 recordings at a time will be
+    returned for readyForTranscode or readyForDownload.                  \n                    \n
+    \   field      data type      description    \n    readyForTranscode      array
+    \     A list of recordingIds for recordings that are ready to be transcoded    \n
+    \   readyForDownload      array      A list of recordingIds for recordings that
+    are ready to be downloaded    \n                    \n                    \nStatus
+    Codes                    \n                    \n    Staus Code      description
+    \         \n    200 OK      Recordings retrieved successfully          \n    400
+    Bad Request      Request may be malformed or property may be missing or invalid
+    \         \n    403 Forbidden      Invalid authorization header or invalid userKey,
+    accountKey or companyId          \n    500 Internal Server Error      Unexpected
+    server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/logmein/archiverecordings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/logmein/archiverecordings-get-openapi.md
 - name: GoToAssist Remote Support - Available Recordings
   x-api-slug: archiverecordings-get
   description: "This method retrieves a list of all available recordings on the account.

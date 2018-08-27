@@ -7,11 +7,50 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-
 x-kinRank: "7"
 x-alexaRank: "23042"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/bookeo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Bookeo - Find available slots matching given search parameters
+  x-api-slug: availabilitymatchingslots-post
+  description: |-
+    Create a search for available slots that match the given search parameters.
+     Note that there are two different searches possible, /availability/slots and /availability/matchingslots (this endpoint).
+     The former simply shows the number of available seats for each available slot. The latter (this one) takes as input the participant numbers, and shows the slots that are available for those numbers, and an estimate of the price.
+     Parameters include product code, number of people and options.
+     The successful response also contains a "Location" HTTP header, which can be invoked to navigate the results of the search.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/bookeo/availabilitymatchingslots-post-openapi.md
+- name: Bookeo - Navigate results of a matching slots search
+  x-api-slug: availabilitymatchingslotspagenavigationtoken-get
+  description: Navigate results of a matching slots search.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/bookeo/availabilitymatchingslotspagenavigationtoken-get-openapi.md
+- name: Bookeo - Get information about the availability of products
+  x-api-slug: availabilityslots-get
+  description: |-
+    Performs a basic search to find available slots and number of seats in each.
+     Note that there are two different searches possible, /availability/slots (this endpoint) and /availability/matchingslots .
+     The former simply shows the number of available seats for each available slot. The latter takes as input the participant numbers, and shows the slots that are available for those numbers, and an estimate of the price.
+     /availability/slots cannot be used for products of type flexibleTime . For those products, use /availability/matchingslots .
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg
+  humanURL: https://www.bookeo.com
+  baseURL: https://api.bookeo.com//v2
+  tags: Bookings, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/bookeo/availabilityslots-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bmc.software.api.gallery.streamdata.io

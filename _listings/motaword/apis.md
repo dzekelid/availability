@@ -12,11 +12,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/motaword/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Mota Word - Available endpoints
+  x-api-slug: get
+  description: The root endpoint will provide you a JSON Swagger definition.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/motaword/get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/motaword/get-openapi.md
 - name: Mota Word - Available endpoints
   x-api-slug: get
   description: The root endpoint will provide you a JSON Swagger definition.

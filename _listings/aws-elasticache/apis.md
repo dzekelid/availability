@@ -15,11 +15,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-elasticache/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS ElastiCache API - List Available Node Types
+  x-api-slug: actionlistavailablenodetypes-get
+  description: .
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
+  humanURL: https://aws.amazon.com/elasticache/
+  baseURL: :///
+  tags: Amazon Web Services, Cache, Stack Network, Performance, Availability, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-elasticache/actionlistavailablenodetypes-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elastic.mapreduce.api.gallery.streamdata.io

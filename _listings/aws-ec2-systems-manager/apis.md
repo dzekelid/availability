@@ -16,11 +16,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Availability
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 Systems Manager API - Describe Available Patches
+  x-api-slug: actiondescribeavailablepatches-get
+  description: Lists all patches that could possibly be included in a patch baseline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2-systems-manager/actiondescribeavailablepatches-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/availability/master/_listings/aws-ec2-systems-manager/actiondescribeavailablepatches-get-openapi.md
 - name: AWS EC2 Systems Manager API - Describe Available Patches
   x-api-slug: actiondescribeavailablepatches-get
   description: Lists all patches that could possibly be included in a patch baseline.
